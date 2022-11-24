@@ -10,36 +10,44 @@
 #second{width: 100px;}
 #second{background-color: blue;} */
 
-div { /* This gets applied to all divs*/
+div {
+    /* This gets applied to all divs*/
     color: black;
     font-family: Tahoma, Verdana, Segoe, sans-serif;
     padding: 0px;
     /*display:flex; /* display:flex; table*/
 
 }
+li {
+    text-align:left;
+}
+
 .container {
-    background-color:black;
-    display:flex;
+    background-color: black;
+    display: flex;
     width: 500px;
     font-size: 10px;
 
 }
+
 .fixed {
-    background-color:white;
+    background-color: white;
     width: 50px;
     height: 50px;
     margin: 1px;
-    display:flex; /* display:flex; table*/
+    display: flex;
+    /* display:flex; table*/
 
 }
+
 .flex-item {
-    background-color:#7887AB;
+    background-color: #7887AB;
     flex-grow: 1;
 }
-input[type="text"]
-{
-    font-size:24px;
-    width:24px;
+
+input[type="text"] {
+    font-size: 18px;
+    width: 24px;
     /* To place the text in the middle of the div.*/
     /*
     display: block;
@@ -48,15 +56,37 @@ input[type="text"]
     margin: auto;
 }
 
-.clueContainer{
+.clueContainer {
     display: flex;
-    width:500px;
+    width: 500px;
 }
 
 /* Create two equal columns that sits next to each other */
 .column {
     flex: 50%;
     padding: 10px;
-  }
+}
 
-  audio { width: 100px; height: 20px; display: block; margin:20px; }
+audio {
+    width: 100px;
+    height: 20px;
+    display: block;
+    margin: 20px;
+}
+
+
+.clueContainer {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.content body{
+    text-align : left
+}
+
+/*
+  div[class="clueContainer"]
+  {
+    vertical-align: middle;
+  }
